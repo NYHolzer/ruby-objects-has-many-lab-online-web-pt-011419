@@ -6,5 +6,7 @@ class Author
     @posts = []
   end
   
-  
+  def posts
+    @posts << self
+  end 
 end 
