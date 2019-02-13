@@ -20,4 +20,8 @@ class Artist
     song.artist = self
     @songs << song 
   end
+  
+  song_count 
+  
+  end
 end 
